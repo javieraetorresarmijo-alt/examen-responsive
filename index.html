@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen practico CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:ital,wght@0,400;0,600;0,700;1,600&family=Kelly+Slab&display=swap">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cabecera-imagen">
+            <img src="imgs/logo.jpg" alt="">
+        </div>
+        <div class="cabecera-texto">
+            <h1>Examen práctico CSS. sitio responsive</h1>
+            <p class="subtitulo">display flex</p>
+        </div>
+    </header>
+
+    <div class="contenedor-principal">
+        <section class="alumnos">
+            <h2 class="titulo-seccion">Alumnos participantes</h2>
+            <div class="alumnos-contenido">
+                <p class="intro-alumnos">Pasa el ratón sobre el nombre de cada alumno para ver su imagen.</p>
+                <div class="grid-alumnos">
+                    <div class="alumno">
+                        <img src="imgs/ramone.jpg" alt="Joey Ramone">
+                        <p>Joey Ramone</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/rotten.jpg" alt="Johnny Rotten">
+                        <p>Johnny Rotten</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/strummer.jpg" alt="Joe Strummer">
+                        <p>Joe Strummer</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/blondie.jpg" alt="Blondie">
+                        <p>Blondie</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/evaristo.jpg" alt="Evaristo Páramos">
+                        <p>Evaristo Páramos</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/patti.jpg" alt="Patti Smith">ç
+                        <p>Patti Smith</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/anacurra.jpg" alt="Ana Curra">
+                        <p>Ana Curra</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/kimgordon.jpg" alt="Kim Gordon">
+                        <p>Kim Gordon</p>
+                    </div>
+                    <div class="alumno">
+                        <img src="imgs/kimdeal.jpg" alt="Kim Deal">
+                        <p>Kim Deal</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenidos">
+            <h2 class="titulo-seccion">Contenidos del examen</h2>
+            <div class="columnas-contenido">
+                <article class="bloque-sombras">
+                    <h3><img src="imgs/logo.jpg" class="icono" alt="">Efectos de sombras paralelas para textos y cajas</h3>
+                    <p class="caja-sombra">Una aplicación interesante del uso de <strong>media queries</strong> es que además de adaptar la presentacion al formato del dispositivo para que se ajuste a él, podemos hacer que la apariencia de un mismo elemento sea completamente diferente para cada resolución de pantalla. Por ejemplo, este mismo párrafo va a ir cambiando en cada punto de corte de nuestro CSS.</p>
+                </article>
+                <article class="bloque-transformacion">
+                    <h3><img src="imgs/logo.jpg" class="icono" alt="">Efectos de transformación</h3>
+                    <p>Con CSS3 también podemos aplicar efectos a los elementos del DOM.</p>
+                    <div class="reflejo">
+                        <div class="reflejo-texto">
+                            <span class="original">REFLEJO</span>
+                            <span class="espejo">REFLEJO</span>
+                        </div>
+                    </div>
+                    <div class="nota">
+                        <input type="checkbox" id="chk-nota" class="chk-nota" autocomplete="off">
+                        <label for="chk-nota" class="caja-blanca">
+                            <span class="texto-nota">Comprueba tu nota</span>
+                        </label>
+                        <span class="interrogacion">?</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
